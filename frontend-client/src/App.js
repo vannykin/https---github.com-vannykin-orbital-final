@@ -54,15 +54,6 @@ function App() {
 	/* const ClearCurrCombi = () => {
 		localStorage.setItem("currCombi", JSON.stringify([]));
 		setCurrCombi([]);
-	}
-
-	const FillCurrCombi = () => {
-		var temp = [ { CAT: "CS2030S lec", day: "Monday", slot_id: "6486d3392c93bdc69db23bfa", slot_name: "1", 
-			startTime: 1200, endTime: 1400, frequency: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] }, 
-		{ CAT: "CS2040S lec", day: "Wednesday", slot_id: "649979912bfc7d3daf113234", slot_name: "1", 
-		startTime: 1000, endTime: 1200, frequency: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] } ];
-		localStorage.setItem("currCombi", JSON.stringify(temp));
-		setCurrCombi(temp);
 	} */
 
 	const GetCourses = () => {
@@ -592,6 +583,23 @@ function App() {
 		}
 	}
 
+	const filterValidSlots = (arrOfSlots) => {
+		var toDelete = [];
+		// eslint-disable-next-line
+		var valid = arrOfSlots.map(slot => {
+			if (slot === "") {}
+			else if (toDelete.includes(slot.slot_name)) {
+				return "";
+			}
+			else if (compareSlots(GetFixedSlots(), slot)) {
+				toDelete.push(slot.slot_name);
+				return "";
+			}
+			else { return slot; }
+		}).filter(slot => slot !== "");
+		return [...new Map(valid.map((item) => [item["slot_name"], item])).values()];
+	}
+
   return (
     <div className="App">
 			<h1>Welcome to the Schedule Generator!</h1>
@@ -749,7 +757,7 @@ function App() {
 									.map(course => (
 									<select className="add-lec-sec-slot" onChange={e => addFixedSlot(course[0].CAT, e.target.value)}>
 										<option>Select Tutorial/Lab Slot</option>
-										{ [...new Map(course.map((item) => [item["slot_name"], item])).values()].map(slot => (
+										{ filterValidSlots(course).map(slot => (
 											<option value={slot.slot_name}>{slot.CAT} {slot.slot_name}</option>
 										)) }
 									</select>
@@ -831,35 +839,35 @@ function App() {
 						<tr id="Mon">
 							<td>Monday</td>
 							{OrganizeSlots("Monday").map(content => {
-								if (content[0] !== "") { return <td colSpan={content[1]} className="contains">{content[0]}</td>; }
+								if (content[0] !== "") { return <td colSpan={content[1]} className="contains">{content[0].toUpperCase()}</td>; }
 								else { return <td colSpan={content[1]} className="empty">{content[0]}</td>; }
 							})}
 						</tr>
 						<tr id="Tue">
 							<td>Tuesday</td>
 							{OrganizeSlots("Tuesday").map(content => {
-								if (content[0] !== "") { return <td colSpan={content[1]} className="contains">{content[0]}</td>; }
+								if (content[0] !== "") { return <td colSpan={content[1]} className="contains">{content[0].toUpperCase()}</td>; }
 								else { return <td colSpan={content[1]} className="empty">{content[0]}</td>; }
 							})}
 						</tr>
 						<tr id="Wed">
 							<td>Wednesday</td>
 							{OrganizeSlots("Wednesday").map(content => {
-								if (content[0] !== "") { return <td colSpan={content[1]} className="contains">{content[0]}</td>; }
+								if (content[0] !== "") { return <td colSpan={content[1]} className="contains">{content[0].toUpperCase()}</td>; }
 								else { return <td colSpan={content[1]} className="empty">{content[0]}</td>; }
 							})}
 						</tr>
 						<tr id="Thu">
 							<td>Thursday</td>
 							{OrganizeSlots("Thursday").map(content => {
-								if (content[0] !== "") { return <td colSpan={content[1]} className="contains">{content[0]}</td>; }
+								if (content[0] !== "") { return <td colSpan={content[1]} className="contains">{content[0].toUpperCase()}</td>; }
 								else { return <td colSpan={content[1]} className="empty">{content[0]}</td>; }
 							})}
 						</tr>
 						<tr id="Fri">
 							<td>Friday</td>
 							{OrganizeSlots("Friday").map(content => {
-								if (content[0] !== "") { return <td colSpan={content[1]} className="contains">{content[0]}</td>; }
+								if (content[0] !== "") { return <td colSpan={content[1]} className="contains">{content[0].toUpperCase()}</td>; }
 								else { return <td colSpan={content[1]} className="empty">{content[0]}</td>; }
 							})}
 						</tr>

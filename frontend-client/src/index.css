@@ -1,0 +1,489 @@
+.dark {
+	--primary: #D81E5B;
+	--secondary: #8A4EFC;
+	--light: #EEE;
+	--light-alt: #61759b;
+	--dark: #131A26;
+	--dark-alt: #202B3E;
+	--delete: #AF1E2D;
+	--slot: #B6A668;
+}
+
+.light {
+	--primary: #ffe32f;
+	--secondary: #FBB03B;
+	--light: #000000;
+	--light-alt: #59595b;
+	--dark: #FAD5B0;
+	--dark-alt: #fef9ef;
+	--delete: rgb(255, 60, 0);
+	--slot: #FAD5B0;
+}
+
+label {
+	width: 0px;
+	height: 0px;
+	cursor: pointer;
+}
+
+label.after {
+	width: 0px;
+	height: 0px;
+}
+
+.darkmode-input {
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+label svg {
+	position: absolute;
+	width: 40px;
+}
+
+label svg.sun {
+	right:472px;
+	top:-345px;
+	fill:#ffe32f;
+}
+
+.darkmode-input:checked + label svg.sun {
+	fill: var(--dark-alt);
+}
+
+label svg.moon {
+	right:472px;
+	top:-345px;
+	fill: #fef9ef;
+}
+
+.darkmode-input:checked + label svg.moon path.stars {
+	fill: #C6C6C6;
+}
+
+.darkmode-input:checked + label svg.moon path.crescent {
+	fill: #ffe32f;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial,
+    sans-serif;
+}
+
+body {
+	background-color: var(--dark-alt);
+	color: var(--light);
+}
+
+.App {
+	padding: 32px;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 32px;
+}
+
+h2 {
+	font-size: 18px;
+	color: var(--light-alt);
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-bottom: 16px;
+}
+
+h4 {
+	font-size: 18px;
+	color: var(--light-alt);
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-bottom: 16px;
+}
+
+.course {
+	position: relative;
+	background-color: var(--dark);
+	padding: 16px;
+	border-radius: 16px;
+	display: flex;
+	align-items: center;
+	transition: 0.5s;
+	cursor: pointer;
+	margin-bottom: 16px;
+}
+
+.course:hover {
+	opacity: 0.8;
+}
+
+.course .text {
+	font-size: 20px;
+}
+
+.course .delete-course {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 16px;
+	color: var(--light);
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background-color: var(--delete);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 700;
+}
+
+.breaks, .fixedslots {
+	position: relative;
+	background-color: var(--dark);
+	padding: 16px;
+	border-radius: 16px;
+	display: flex;
+	align-items: center;
+	transition: 0.5s;
+	cursor: pointer;
+	margin-bottom: 16px;
+}
+
+.breaks:hover {
+	opacity: 0.8;
+}
+
+.breaks .period, .fixedslots .slot {
+	font-size: 20px;
+}
+
+.breaks .delete-period, .fixedslots .delete-fixed-slot {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 16px;
+	color: var(--light);
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background-color: var(--delete);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 700;
+}
+
+.addPopup {
+	position: fixed;
+	bottom: 32px;
+	right: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 64px;
+	height: 64px;
+	border-radius: 999px;
+	font-size: 28px;
+	font-weight: 900;
+	color: var(--light);
+	background-color: var(--primary);
+	background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+	cursor: pointer;
+}
+
+.SemButton, .generateButton, .filterButton {
+	position: fixed;
+	bottom: 32px;
+	left: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 230px;
+	height: 56px;
+	border-radius: 999px;
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--light);
+	background-color: var(--primary);
+	background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+	cursor: pointer;
+	border: white;
+}
+
+.limit {
+	position: fixed;
+	bottom: 32px;
+	left: 278px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 156px;
+	height: 56px;
+	border-radius: 999px;
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--light);
+	background-color: var(--primary);
+	background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+	cursor: pointer;
+}
+
+.limitpopup, .filterPopup, .popup, .sempopup, .LecSecPopup {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	width: 100%;
+	max-width: 400px;
+	background-color: var(--light);
+	padding: 32px;
+	border-radius: 16px;
+	box-shadow: 0px 4px 32px var(--dark);
+}
+
+.closePopup, .closeSemPopup, .closeLimitPopup, .closeLecSecPopup, .closeFilterPopup {
+	position: absolute;
+	top: 16px;
+	right: 16px;
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	color: var(--dark);
+	cursor: pointer;
+}
+
+.popup h3 {
+	color: var(--dark);
+	margin-bottom: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.limitpopup h3, .filterPopup h3, .LecSecPopup h3 {
+	color: var(--dark);
+	margin-bottom: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.limitpopup h4, .filterPopup h4, .LecSecPopup h4 {
+	color: var(--dark);
+	margin-bottom: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.limitpopup h5, .filterPopup h5 {
+	color: var(--dark);
+	margin-bottom: 12px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.add-course-input, .choose-semester-input, .select-limit, .choose-beginning-input, .choose-ending-input, .choose-breaks-input, .add-lec-sec-slot, .choose-off-day {
+	appearance: none;
+	outline: none;
+	border: none;
+	background-color: #FFF;
+	padding: 16px;
+	border-radius: 16px;
+	width: 100%;
+	box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.2);
+	font-size: 20px;
+}
+
+.courseList {
+	appearance: none;
+	outline: none;
+	border: none;
+	background-color: #FFF;
+	padding: 16px;
+	border-radius: 16px;
+	width: 100%;
+	box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.2);
+	font-size: 20px;
+	color:#131A26;
+	list-style-type: none;
+	cursor: pointer;
+}
+
+.button, .semButton, .GenerateButton, .MoreFixedSlots {
+	padding: 16px 32px;
+	border-radius: 999px;
+	background-image: linear-gradient(to right, var(--primary), var(--secondary));
+	display: inline-block;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-top: 16px;
+	text-align: center;
+	cursor: pointer;
+	border: white;
+}
+
+.resetEverythingButton {
+	position: absolute;
+	top: 32px;
+	right: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 196px;
+	height: 48px;
+	border-radius: 999px;
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--light);
+	background-color: var(--primary);
+	background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+	cursor: pointer;
+	border: white;
+}
+
+.resetButton {
+	position: absolute;
+	top: 32px;
+	right: 244px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 212px;
+	height: 48px;
+	border-radius: 999px;
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--light);
+	background-color: var(--primary);
+	background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+	cursor: pointer;
+	border: white;
+}
+
+table, td, th {
+	font-size: 18px;
+	padding: 16px;
+}
+
+tr {
+	border-bottom: 1px solid;
+	border-color: grey;
+}
+
+th {
+	border: 1px solid;
+	border-color: grey;
+}
+
+td {
+	width: fixed;
+	width: 160px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.contains {
+	border-collapse: collapse;
+	border-radius: 8px;
+	background-color: var(--slot);
+}
+
+.empty {
+	border-collapse: collapse;
+}
+
+td:nth-child(1) { 
+	width: 132px !important;
+	border: 1px solid;
+	border-color: grey;
+}
+
+td:last-child {
+	border-right: 1px solid;
+	border-color: grey;
+}
+  
+table {
+	border-collapse: collapse;
+	background-color: var(--dark-alt);
+	max-width: 100%;
+	position: relative;
+	display: table;
+	margin-bottom: 8px;
+}
+
+/* .combis {
+	display: flex !important;
+	flex-wrap: wrap !important;
+	align-items: center !important;
+} */
+
+.prevBtn {
+	position: absolute;
+	bottom: 32px;
+	left: 144px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 212px;
+	height: 48px;
+	border-radius: 999px;
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--light);
+	background-color: var(--primary);
+	background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+	cursor: pointer;
+	border: white;
+}
+
+.nextBtn {
+	position: absolute;
+	bottom: 32px;
+	left: 432px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 212px;
+	height: 48px;
+	border-radius: 999px;
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--light);
+	background-color: var(--primary);
+	background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+	cursor: pointer;
+	border: white;
+}
+
+.downloadBtn {
+	position: absolute;
+	bottom: 32px;
+	right: 244px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 212px;
+	height: 48px;
+	border-radius: 999px;
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--light);
+	background-color: var(--primary);
+	background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+	cursor: pointer;
+	border: white;
+}

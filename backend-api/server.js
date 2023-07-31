@@ -27,7 +27,7 @@ app.get("/courses/one", async (req, res) => {
 
 app.get("/courses/two", async (req, res) => {
   const courses = await Course.find({ term: "2"});
-  res.json("It works!");
+  res.json(courses);
 });
 
 app.get("/courses/three", async (req, res) => {

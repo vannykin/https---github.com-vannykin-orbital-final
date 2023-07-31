@@ -1,0 +1,14 @@
+[
+    {
+        "_id": 100,
+        "code": "CS2030S",
+        "name": "testing1",
+        "term": "1"
+    },
+    {
+        "_id": 101,
+        "code": "CS2040S",
+        "name": "testing2",
+        "term": "2"
+    }
+]

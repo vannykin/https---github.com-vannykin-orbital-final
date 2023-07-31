@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import {jsPDF} from 'jspdf';
 import 'jspdf-autotable';
-const api_base = 'https://orbital-final.vercel.app';
+// const api_base = 'https://orbital-final.vercel.app';
 
 function App() {
 	const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
@@ -46,9 +46,9 @@ function App() {
 	
 	// TO RETURN ALL CHOSEN COURSES IN 'SELECTED COURSES'
 	useEffect(() => {
-		fetch(api_base).then((res) => console.log(res));
+		// fetch(api_base).then((res) => console.log(res));
 		GetCourses();
-		// fetchCourses();
+		fetchCourses();
 		toggleTheme();
 	}, []);
 
@@ -62,12 +62,15 @@ function App() {
 	}
 
 	// TO RETURN ALL COURSES IN DATABASE
-	/* const fetchCourses = () => {
-		fetch(api_base + '/courses/all')
-			.then(res => { console.log(res); return res.json(); })
-			.then(data => setCourses(data))
-			.catch((err) => console.error("Error: ", err));
-	} */
+	const fetchCourses = async () => {
+		try {
+			const response = await fetch('/data.json');
+			const jsonData = await response.json();
+			setCourses(jsonData);
+		} catch (error) {
+			console.error('Error fetching data:', error);
+		}
+	}
 
 	// TO ADD ONE SPECIFIC COURSE TO THE ARRAY 'SELECTEDCOURSES' PROVIDED IT IS NOT ALREADY ADDED
     const addCourse = course => {
@@ -380,22 +383,7 @@ function App() {
 
 	const GetAvailCourses = () => {
 		if (isTermChosen()) {
-			var alphaTerm = "";
-			if (term === "1") {
-				alphaTerm = 'one';
-			} else if (term === "2") {
-				alphaTerm = 'two';
-			} else if (term === "3") {
-				alphaTerm = 'three';
-			} else if (term === "4") {
-				alphaTerm = 'four';
-			} else {}
-			fetch(api_base + '/courses/' + alphaTerm)
-				.then(res => { console.log(res); return res.json(); })
-				.then(data => setCourses(data))
-				.catch((err) => console.error("Error: ", err));
-			// return courses.filter(course => course.term === term);
-			return courses;
+			return courses.filter(course => course.term === term);
 		} else {
 			return [];
 		}

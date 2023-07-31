@@ -48,7 +48,7 @@ function App() {
 	useEffect(() => {
 		fetch(api_base).then((res) => console.log(res));
 		GetCourses();
-		fetchCourses();
+		// fetchCourses();
 		toggleTheme();
 	}, []);
 
@@ -62,12 +62,12 @@ function App() {
 	}
 
 	// TO RETURN ALL COURSES IN DATABASE
-	const fetchCourses = () => {
+	/* const fetchCourses = () => {
 		fetch(api_base + '/courses/all')
 			.then(res => { console.log(res); return res.json(); })
 			.then(data => setCourses(data))
 			.catch((err) => console.error("Error: ", err));
-	}
+	} */
 
 	// TO ADD ONE SPECIFIC COURSE TO THE ARRAY 'SELECTEDCOURSES' PROVIDED IT IS NOT ALREADY ADDED
     const addCourse = course => {
@@ -380,7 +380,21 @@ function App() {
 
 	const GetAvailCourses = () => {
 		if (isTermChosen()) {
-			return courses.filter(course => course.term === term);
+			if (term === "1") {
+				const alphaTerm = 'one';
+			} else if (term === "2") {
+				const alphaTerm = 'two';
+			} else if (term === "3") {
+				const alphaTerm = 'three';
+			} else if (term === "4") {
+				const alphaTerm = 'four';
+			}
+			fetch(api_base + '/courses/' + alphaTerm)
+				.then(res => { console.log(res); return res.json(); })
+				.then(data => setCourses(data))
+				.catch((err) => console.error("Error: ", err));
+			// return courses.filter(course => course.term === term);
+			return courses;
 		} else {
 			return [];
 		}

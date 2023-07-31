@@ -8,13 +8,7 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors(
-  {
-    origin: ["https://orbital-muddlekillers.vercel.app"],
-    methods: ["POST", "GET", "OPTIONS"],
-    credentials: true
-  }
-));
+app.use(cors());
 
 mongoose
   .connect(process.env.URI, {

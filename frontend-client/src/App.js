@@ -62,7 +62,7 @@ function App() {
 
 	// TO RETURN ALL COURSES IN DATABASE
 	const fetchCourses = () => {
-		fetch(api_base + '/courses/all')
+		fetch(api_base + '/courses/all', { method: 'GET', mode: 'no-cors' })
 			.then(res => res.json())
 			.then(data => setCourses(data))
 			.catch((err) => console.error("Error: ", err));

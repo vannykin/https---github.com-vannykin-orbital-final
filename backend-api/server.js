@@ -10,7 +10,7 @@ const app = express();
 
 app.use(cors(
   {
-    origin: ["https://orbital-final.vercel.app"],
+    origin: ["https://orbital-muddlekillers.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true
   }

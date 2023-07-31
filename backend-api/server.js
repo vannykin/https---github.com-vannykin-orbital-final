@@ -8,8 +8,15 @@ dotenv.config();
 
 const app = express();
 
-app.use(express.json());
 app.use(cors());
+app.use(express.json());
+
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', '*');
+  res.header('Access-Control-Allow-Methods', 'GET');
+  next();
+});
 
 mongoose
   .connect(process.env.URI, {
@@ -31,10 +38,3 @@ app.get("/", async (req, res) => {
 });
 
 app.listen(3001, () => console.log("Server started on port 3001"));
-
-app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Headers', '*');
-  res.header('Access-Control-Allow-Methods', 'GET');
-  next();
-});

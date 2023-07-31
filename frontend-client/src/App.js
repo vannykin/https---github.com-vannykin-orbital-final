@@ -389,7 +389,7 @@ function App() {
 				alphaTerm = 'three';
 			} else if (term === "4") {
 				alphaTerm = 'four';
-			}
+			} else {}
 			fetch(api_base + '/courses/' + alphaTerm)
 				.then(res => { console.log(res); return res.json(); })
 				.then(data => setCourses(data))

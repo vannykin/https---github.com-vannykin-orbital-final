@@ -380,7 +380,7 @@ function App() {
 
 	const GetAvailCourses = () => {
 		if (isTermChosen()) {
-			const alphaTerm = "";
+			var alphaTerm = "";
 			if (term === "1") {
 				alphaTerm = 'one';
 			} else if (term === "2") {

@@ -46,6 +46,7 @@ function App() {
 	
 	// TO RETURN ALL CHOSEN COURSES IN 'SELECTED COURSES'
 	useEffect(() => {
+		fetch(api_base).then((res) => console.log(res));
 		GetCourses();
 		fetchCourses();
 		toggleTheme();
@@ -63,7 +64,7 @@ function App() {
 	// TO RETURN ALL COURSES IN DATABASE
 	const fetchCourses = () => {
 		fetch(api_base + '/courses/all')
-			.then(res => res.json())
+			.then(res => { console.log(res); return res.json(); })
 			.then(data => setCourses(data))
 			.catch((err) => console.error("Error: ", err));
 	}

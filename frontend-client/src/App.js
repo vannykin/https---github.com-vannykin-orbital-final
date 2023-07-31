@@ -380,14 +380,15 @@ function App() {
 
 	const GetAvailCourses = () => {
 		if (isTermChosen()) {
+			const alphaTerm = "";
 			if (term === "1") {
-				const alphaTerm = 'one';
+				alphaTerm = 'one';
 			} else if (term === "2") {
-				const alphaTerm = 'two';
+				alphaTerm = 'two';
 			} else if (term === "3") {
-				const alphaTerm = 'three';
+				alphaTerm = 'three';
 			} else if (term === "4") {
-				const alphaTerm = 'four';
+				alphaTerm = 'four';
 			}
 			fetch(api_base + '/courses/' + alphaTerm)
 				.then(res => { console.log(res); return res.json(); })

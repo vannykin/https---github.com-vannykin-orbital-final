@@ -27,8 +27,8 @@ const Course = require("./models/Course");
 
 // TO RETURN ALL COURSES IN DATABASE AS AN ARRAY
 app.get("/courses/all", async (req, res) => {
-  // const courses = await Course.find();
-  const courses = [ { code: 'CS2030S', _id: ObjectId(96154488), name: "testing1", term: "1" }];
+  const courses = await Course.find();
+  // const courses = [ { code: 'CS2030S', _id: ObjectId(96154488), name: "testing1", term: "1" }];
   res.json(courses);
 });
 

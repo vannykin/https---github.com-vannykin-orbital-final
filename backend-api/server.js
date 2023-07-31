@@ -31,3 +31,9 @@ app.get("/", async (req, res) => {
 });
 
 app.listen(3001, () => console.log("Server started on port 3001"));
+
+module.exports = async (req, res) => {
+  cors()(req, res, () => {
+    res.status(200).json({ message: 'Hello from your serverless function!' });
+  });
+};

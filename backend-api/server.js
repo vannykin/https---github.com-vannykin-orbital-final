@@ -8,7 +8,13 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors());
+app.use(cors(
+  {
+    origin: ["https://orbital-final.vercel.app"],
+    methods: ["POST", "GET"],
+    credentials: true
+  }
+));
 
 app.use(express.json());
 

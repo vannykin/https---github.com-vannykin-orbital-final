@@ -32,6 +32,13 @@ app.get("/", async (req, res) => {
 
 app.listen(3001, () => console.log("Server started on port 3001"));
 
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', 'https://orbital-muddlekillers.vercel.app/');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+  res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
+  next();
+});
+
 module.exports = async (req, res) => {
   cors()(req, res, () => {
     res.status(200).json({ message: 'Hello from your serverless function!' });

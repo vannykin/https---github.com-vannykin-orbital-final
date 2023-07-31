@@ -21,14 +21,22 @@ const Course = require("./models/Course");
 
 // TO RETURN ALL COURSES IN DATABASE AS AN ARRAY
 app.get("/courses/one", async (req, res) => {
-  // const courses = await Course.find();
-  const courses = [ { code: 'CS2030S', name: "testing1", term: "1" }];
+  const courses = await Course.find({ term: "1"});
   res.json(courses);
 });
 
 app.get("/courses/two", async (req, res) => {
-  // const courses = await Course.find();
-  const courses = [ { code: 'CS2040S', name: "testing2", term: "2" }];
+  const courses = await Course.find({ term: "2"});
+  res.json(courses);
+});
+
+app.get("/courses/three", async (req, res) => {
+  const courses = await Course.find({ term: "3"});
+  res.json(courses);
+});
+
+app.get("/courses/four", async (req, res) => {
+  const courses = await Course.find({ term: "4"});
   res.json(courses);
 });
 

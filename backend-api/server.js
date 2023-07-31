@@ -8,15 +8,14 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors());
-app.use(express.json());
-
 app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.header('Access-Control-Allow-Headers', '*');
   res.header('Access-Control-Allow-Methods', 'GET');
   next();
 });
+
+app.use(express.json());
 
 mongoose
   .connect(process.env.URI, {

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import {jsPDF} from 'jspdf';
 import 'jspdf-autotable';
-const api_base = 'http://localhost:3001';
+const api_base = 'https://orbital-final-oue2vhfdx-vannykin.vercel.app/';
 
 function App() {
 	const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');

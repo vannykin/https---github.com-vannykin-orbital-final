@@ -725,7 +725,7 @@ function App() {
 							<h3>Select Your Lecture and Sectional Slots</h3>
 							<h4>Please select one from each course</h4>
 
-								{GetAOA().filter(course => { course[0].CAT.includes("lec") || course[0].CAT.includes("sec") })
+								{GetAOA()
 									.map(course => (
 									<select className="add-lec-sec-slot" onChange={e => addFixedSlot(course[0].CAT, e.target.value)}>
 										<option>Select Lecture/Sectional Slot</option>
@@ -757,7 +757,7 @@ function App() {
 							<h3>Select Your Tutorial and Lab Slots</h3>
 							<h4>Please only select the must-have tut/lab slots, leave the rest to be generated</h4>
 
-								{GetAOA().filter(course => { course[0].CAT.includes("tut") || course[0].CAT.includes("lab") || course[0].CAT.includes("rec") })
+								{GetAOA().filter(course => course[0].CAT.includes("tut") || course[0].CAT.includes("lab") || course[0].CAT.includes("rec"))
 									.map(course => (
 									<select className="add-lec-sec-slot" onChange={e => addFixedSlot(course[0].CAT, e.target.value)}>
 										<option>Select Tutorial/Lab Slot</option>

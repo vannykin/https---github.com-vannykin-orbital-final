@@ -28,7 +28,7 @@
             },
             "endTime": 1800,
             "startTime": 1700,
-            "CAT": "MA2311 tut"
+            "CAT": "MA2311 lec"
           },
           {
             "day": "Monday",
@@ -51,7 +51,7 @@
             },
             "endTime": 1900,
             "startTime": 1800,
-            "CAT": "MA2311 tut"
+            "CAT": "MA2311 lec"
           },
           {
             "day": "Wednesday",
@@ -74,7 +74,7 @@
             },
             "endTime": 1600,
             "startTime": 1500,
-            "CAT": "MA2311 tut"
+            "CAT": "MA2311 lec"
           },
           {
             "day": "Wednesday",
@@ -97,7 +97,7 @@
             "slot_id": {
               "$oid": "649bf77751de65fc2278a216"
             },
-            "CAT": "MA2311 tut"
+            "CAT": "MA2311 lec"
           },
           {
             "day": "Wednesday",
@@ -120,7 +120,7 @@
             "slot_id": {
               "$oid": "649bf79d51de65fc2278a217"
             },
-            "CAT": "MA2311 tut"
+            "CAT": "MA2311 lec"
           },
           {
             "day": "Friday",
@@ -143,7 +143,7 @@
             "slot_id": {
               "$oid": "649bf7c551de65fc2278a218"
             },
-            "CAT": "MA2311 tut"
+            "CAT": "MA2311 lec"
           },
           {
             "day": "Friday",
@@ -166,7 +166,7 @@
             "slot_id": {
               "$oid": "649bf7e451de65fc2278a219"
             },
-            "CAT": "MA2311 tut"
+            "CAT": "MA2311 lec"
           },
           {
             "day": "Friday",
@@ -189,7 +189,7 @@
             "slot_name": "8",
             "endTime": 1400,
             "startTime": 1300,
-            "CAT": "MA2311 tut"
+            "CAT": "MA2311 lec"
           },
           {
             "day": "Friday",
@@ -212,7 +212,7 @@
             "slot_id": {
               "$oid": "649bf82051de65fc2278a21b"
             },
-            "CAT": "MA2311 tut"
+            "CAT": "MA2311 lec"
           },
           {
             "day": "Friday",
@@ -235,7 +235,7 @@
             "slot_name": "10",
             "startTime": 1500,
             "endTime": 1600,
-            "CAT": "MA2311 tut"
+            "CAT": "MA2311 lec"
           }
         ]
     }

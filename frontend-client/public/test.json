@@ -5,70 +5,8 @@
         },
         "code": "MA2311",
         "name": "Techniques in Advanced Calculus",
-        "lec": [
-          {
-            "day": "Tuesday",
-            "slot_id": {
-              "$oid": "649bef4051de65fc2278a211"
-            },
-            "frequency": [
-              1,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9,
-              10,
-              11,
-              12,
-              13
-            ],
-            "slot_name": "1",
-            "startTime": 1400,
-            "endTime": 1600,
-            "bundled": [
-              {
-                "$oid": "649bef6151de65fc2278a212"
-              }
-            ],
-            "CAT": "MA2311 lec"
-          },
-          {
-            "day": "Thursday",
-            "frequency": [
-              1,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9,
-              10,
-              11,
-              12,
-              13
-            ],
-            "slot_id": {
-              "$oid": "649bef6151de65fc2278a212"
-            },
-            "slot_name": "1",
-            "startTime": 1400,
-            "endTime": 1600,
-            "bundled": [
-              {
-                "$oid": "649bef4051de65fc2278a211"
-              }
-            ],
-            "CAT": "MA2311 lec"
-          }
-        ],
         "term": "1",
-        "tut": [
+        "lec": [
           {
             "day": "Monday",
             "frequency": [

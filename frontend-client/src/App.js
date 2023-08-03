@@ -66,8 +66,7 @@ function App() {
 		try {
 			const response = await fetch('/test.json');
 			const jsonData = await response.json();
-			const allCourses = Array.from(jsonData, x => x);
-			setCourses(allCourses);
+			setCourses(jsonData);
 		} catch (error) {
 			console.error('Error fetching data:', error);
 		}

@@ -725,7 +725,7 @@ function App() {
 							<h3>Select Your Lecture and Sectional Slots</h3>
 							<h4>Please select one from each course</h4>
 
-								{GetAOA()
+								{GetAOA().filter(course => course[0].CAT.includes("lec") || course[0].CAT.includes("sec"))
 									.map(course => (
 									<select className="add-lec-sec-slot" onChange={e => addFixedSlot(course[0].CAT, e.target.value)}>
 										<option>Select Lecture/Sectional Slot</option>

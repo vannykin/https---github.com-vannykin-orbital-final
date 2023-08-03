@@ -64,7 +64,7 @@ function App() {
 	// TO RETURN ALL COURSES IN DATABASE
 	const fetchCourses = async () => {
 		try {
-			const response = await fetch('/data.json');
+			const response = await fetch('/test.json');
 			const jsonData = await response.json();
 			setCourses(jsonData);
 		} catch (error) {

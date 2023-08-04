@@ -64,7 +64,7 @@ function App() {
 	// TO RETURN ALL COURSES IN DATABASE
 	const fetchCourses = () => {
 		try {
-			fetch('/test.json')
+			fetch('/data.json')
 				.then((res) => { return res.json(); })
 				.then((data) => setCourses(data));
 		} catch (error) {

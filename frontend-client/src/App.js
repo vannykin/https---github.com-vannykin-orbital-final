@@ -67,6 +67,8 @@ function App() {
 			const response = await fetch('/test.json');
 			const jsonData = await response.json();
 			setCourses(jsonData);
+			const tutData = courses.map(course => course.tut);
+			console.log(tutData.length);
 		} catch (error) {
 			console.error('Error fetching data:', error);
 		}

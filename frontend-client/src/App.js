@@ -64,9 +64,10 @@ function App() {
 	// TO RETURN ALL COURSES IN DATABASE
 	const fetchCourses = () => {
 		try {
-			const response = fetch('./test.json');
-			const jsonData = response.json();
-			setCourses(jsonData);
+			fetch('/test.json')
+				.then((res) => { return res.json(); })
+				.then((data) => setCourses(data))
+				.then(console.log("Data Fetched!"));
 		} catch (error) {
 			console.error('Error fetching data:', error);
 		}

@@ -66,8 +66,7 @@ function App() {
 		try {
 			fetch('/test.json')
 				.then((res) => { return res.json(); })
-				.then((data) => setCourses(data))
-				.then(console.log("Data Fetched!"));
+				.then((data) => setCourses(data));
 		} catch (error) {
 			console.error('Error fetching data:', error);
 		}
@@ -444,19 +443,19 @@ function App() {
 	const extractSlots = () => { // method that builds the "AOA"
 		// eslint-disable-next-line
 		GetCourses().map(course => {
-			if (course.lec.length !== 0) {
+			if (course.lec !== undefined) {
 				editArrOfArrs(course.lec);
 			}
-			if (course.sec.length !== 0) {
+			if (course.sec !== undefined) {
 				editArrOfArrs(course.sec);
 			}
-			if (course.tut.length !== 0) {
+			if (course.tut !== undefined) {
 				editArrOfArrs(course.tut);
 			}
-			if (course.rec.length !== 0) {
+			if (course.rec !== undefined) {
 				editArrOfArrs(course.rec);
 			}
-			if (course.lab.length !== 0) {
+			if (course.lab !== undefined) {
 				editArrOfArrs(course.lab);
 			}
 		});

@@ -62,13 +62,11 @@ function App() {
 	}
 
 	// TO RETURN ALL COURSES IN DATABASE
-	const fetchCourses = async () => {
+	const fetchCourses = () => {
 		try {
-			const response = await fetch('/test.json');
-			const jsonData = await response.json();
+			const response = fetch('./test.json');
+			const jsonData = response.json();
 			setCourses(jsonData);
-			const tutData = courses.map(course => course.tut);
-			console.log(tutData.length);
 		} catch (error) {
 			console.error('Error fetching data:', error);
 		}

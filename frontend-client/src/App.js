@@ -57,7 +57,15 @@ function App() {
 		setCurrCombi([]);
 	} */
 
+	const createSelectedCourses = () => {
+		localStorage.setItem("selected", JSON.stringify([]));
+		setSelectedCourses([]);
+	}
+
 	const GetCourses = () => {
+		if (selectedCourses === null) {
+			createSelectedCourses();
+		}
 		return JSON.parse(localStorage.getItem("selected"));
 	}
 

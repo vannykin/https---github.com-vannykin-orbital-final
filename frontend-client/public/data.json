@@ -26807,4 +26807,4319 @@
     }
   ],
   "term": "1"
+},
+{
+  "_id": {
+    "$oid": "64d0a2ed6e01a1770cee82dd"
+  },
+  "name": "Reconnect SeniorSG",
+  "code": "GEN2060X",
+  "term": "1",
+  "tut": [
+    {
+      "slot_name": "01",
+      "day": "Monday",
+      "slot_id": {
+        "$oid": "64d0a40af5dac456ad36089c"
+      },
+      "startTime": 800,
+      "endTime": 1000,
+      "CAT": "GEN2060X tut",
+      "frequency": [
+        3,
+        4
+      ]
+    },
+    {
+      "day": "Monday",
+      "slot_name": "02",
+      "slot_id": {
+        "$oid": "64d0a463f5dac456ad36089d"
+      },
+      "frequency": [
+        3,
+        4
+      ],
+      "startTime": 1000,
+      "endTime": 1200,
+      "CAT": "GEN2060X tut"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "03",
+      "slot_id": {
+        "$oid": "64d0a4cdf5dac456ad36089e"
+      },
+      "startTime": 1200,
+      "endTime": 1400,
+      "frequency": [
+        3,
+        4
+      ],
+      "CAT": "GEN2060X tut"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "04",
+      "slot_id": {
+        "$oid": "64d0a53ef5dac456ad36089f"
+      },
+      "frequency": [
+        3,
+        4
+      ],
+      "startTime": 1400,
+      "endTime": 1600,
+      "CAT": "GEN2060X tut"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "05",
+      "slot_id": {
+        "$oid": "64d0a58df5dac456ad3608a0"
+      },
+      "frequency": [
+        3,
+        4
+      ],
+      "startTime": 1600,
+      "endTime": 1800,
+      "CAT": "GEN2060X tut"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "06",
+      "slot_id": {
+        "$oid": "64d0a5f3f5dac456ad3608a1"
+      },
+      "startTime": 800,
+      "endTime": 1000,
+      "frequency": [
+        3,
+        4
+      ],
+      "CAT": "GEN2060X tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "07",
+      "slot_id": {
+        "$oid": "64d0a780f5dac456ad3608a2"
+      },
+      "frequency": [
+        3,
+        4
+      ],
+      "startTime": 800,
+      "endTime": 1000,
+      "CAT": "GEN2060X tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "08",
+      "slot_id": {
+        "$oid": "64d0a7d4f5dac456ad3608a3"
+      },
+      "frequency": [
+        3,
+        4
+      ],
+      "startTime": 1000,
+      "endTime": 1200,
+      "CAT": "GEN2060X tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "09",
+      "slot_id": {
+        "$oid": "64d0a86af5dac456ad3608a4"
+      },
+      "startTime": 1200,
+      "endTime": 1400,
+      "frequency": [
+        3,
+        4
+      ],
+      "CAT": "GEN2060X tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "10",
+      "frequency": [
+        3,
+        4
+      ],
+      "startTime": 1600,
+      "endTime": 1800,
+      "CAT": "GEN2060X tut",
+      "slot_id": {
+        "$oid": "64d0a929f5dac456ad3608a5"
+      }
+    },
+    {
+      "day": "Thursday",
+      "slot_name": "11",
+      "slot_id": {
+        "$oid": "64d0a97ff5dac456ad3608a6"
+      },
+      "frequency": [
+        3,
+        4
+      ],
+      "startTime": 1200,
+      "endTime": 1400,
+      "CAT": "GEN2060X tut"
+    },
+    {
+      "day": "Thursday",
+      "slot_id": {
+        "$oid": "64d0a9f6f5dac456ad3608a7"
+      },
+      "slot_name": "12",
+      "frequency": [
+        3,
+        4
+      ],
+      "CAT": "GEN2060X tut",
+      "startTime": 1600,
+      "endTime": 1800
+    },
+    {
+      "day": "Friday",
+      "slot_name": "14",
+      "slot_id": {
+        "$oid": "64d0aa8ff5dac456ad3608a8"
+      },
+      "startTime": 800,
+      "endTime": 1000,
+      "frequency": [
+        3,
+        4
+      ],
+      "CAT": "GEN2060X tut"
+    },
+    {
+      "day": "Friday",
+      "slot_name": "15",
+      "startTime": 1000,
+      "endTime": 1200,
+      "frequency": [
+        3,
+        4
+      ],
+      "slot_id": {
+        "$oid": "64d0ab5ef5dac456ad3608a9"
+      },
+      "CAT": "GEN2060X tut"
+    },
+    {
+      "day": "Friday",
+      "slot_name": "13/16",
+      "slot_id": {
+        "$oid": "64d0abc5f5dac456ad3608aa"
+      },
+      "startTime": 1200,
+      "endTime": 1400,
+      "frequency": [
+        3,
+        4
+      ],
+      "CAT": "GEN2060X tut"
+    },
+    {
+      "CAT": "GEN2060X tut",
+      "day": "Friday",
+      "endTime": 1600,
+      "frequency": [
+        3,
+        4
+      ],
+      "slot_id": {
+        "$oid": "64d0ac2bf5dac456ad3608ab"
+      },
+      "slot_name": "17",
+      "startTime": 1400
+    },
+    {
+      "CAT": "GEN2060X tut",
+      "day": "Friday",
+      "endTime": 1800,
+      "frequency": [
+        3,
+        4
+      ],
+      "slot_id": {
+        "$oid": "64d0ac92f5dac456ad3608ac"
+      },
+      "slot_name": "18",
+      "startTime": 1600
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64d0ad336e01a1770cee82de"
+  },
+  "name": "Creative Narrative",
+  "code": "CDE2000",
+  "term": "1",
+  "tut": [
+    {
+      "slot_name": "A12/A22",
+      "day": "Monday",
+      "slot_id": {
+        "$oid": "64d0add2f5dac456ad3608ad"
+      },
+      "startTime": 1000,
+      "endTime": 1200,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "CAT": "CDE2000 tut"
+    },
+    {
+      "day": "Monday",
+      "slot_name": "A11/A13",
+      "slot_id": {
+        "$oid": "64d0ae25f5dac456ad3608ae"
+      },
+      "startTime": 1000,
+      "endTime": 1200,
+      "CAT": "CDE2000 tut",
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "day": "Monday",
+      "slot_name": "A4",
+      "slot_id": {
+        "$oid": "64d0af26f5dac456ad3608af"
+      },
+      "startTime": 1600,
+      "endTime": 1800,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "CAT": "CDE2000 tut"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "A10/A18",
+      "slot_id": {
+        "$oid": "64d0af74f5dac456ad3608b0"
+      },
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "startTime": 1200,
+      "endTime": 1400,
+      "CAT": "CDE2000 tut"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "A1/A17/A23",
+      "slot_id": {
+        "$oid": "64d0b17a4447ca5233caf7fa"
+      },
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "startTime": 1400,
+      "endTime": 1600,
+      "CAT": "CDE2000 tut"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "A20",
+      "slot_id": {
+        "$oid": "64d0b1d14447ca5233caf7fb"
+      },
+      "startTime": 1600,
+      "endTime": 1800,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "CAT": "CDE2000 tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "A2/A14",
+      "slot_id": {
+        "$oid": "64d0b2504447ca5233caf7fc"
+      },
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "startTime": 1000,
+      "endTime": 1200,
+      "CAT": "CDE2000 tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_id": {
+        "$oid": "64d0b2984447ca5233caf7fd"
+      },
+      "slot_name": "A3/A6",
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "startTime": 1200,
+      "endTime": 1400,
+      "CAT": "CDE2000 tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "A24",
+      "slot_id": {
+        "$oid": "64d0b3134447ca5233caf7fe"
+      },
+      "startTime": 1400,
+      "endTime": 1600,
+      "CAT": "CDE2000 tut",
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "A15",
+      "slot_id": {
+        "$oid": "64d0b35d4447ca5233caf7ff"
+      },
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "startTime": 1600,
+      "endTime": 1800,
+      "CAT": "CDE2000 tut"
+    },
+    {
+      "day": "Thursday",
+      "slot_name": "A7/A26",
+      "slot_id": {
+        "$oid": "64d0b3d54447ca5233caf800"
+      },
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "startTime": 1000,
+      "endTime": 1200,
+      "CAT": "CDE2000 tut"
+    },
+    {
+      "day": "Thursday",
+      "slot_name": "A19/A21",
+      "slot_id": {
+        "$oid": "64d0b4254447ca5233caf801"
+      },
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "startTime": 1200,
+      "endTime": 1400,
+      "CAT": "CDE2000 tut"
+    },
+    {
+      "day": "Thursday",
+      "slot_name": "A9",
+      "slot_id": {
+        "$oid": "64d0b4764447ca5233caf802"
+      },
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "startTime": 1600,
+      "endTime": 1800,
+      "CAT": "CDE2000 tut"
+    },
+    {
+      "day": "Friday",
+      "slot_name": "A16/A25",
+      "slot_id": {
+        "$oid": "64d0b4b54447ca5233caf803"
+      },
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "startTime": 1000,
+      "endTime": 1200,
+      "CAT": "CDE2000 tut"
+    },
+    {
+      "slot_name": "A8",
+      "day": "Friday",
+      "slot_id": {
+        "$oid": "64d0b5184447ca5233caf804"
+      },
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "startTime": 1200,
+      "endTime": 1400,
+      "CAT": "CDE2000 tut"
+    },
+    {
+      "slot_name": "A5/A27",
+      "day": "Friday",
+      "slot_id": {
+        "$oid": "64d0b54c4447ca5233caf805"
+      },
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "startTime": 1400,
+      "endTime": 1600,
+      "CAT": "CDE2000 tut"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64d0b5c599797a78e6183f79"
+  },
+  "name": "Earth and Beyond",
+  "code": "HS2907",
+  "term": "1",
+  "lec": [
+    {
+      "day": "Thursday",
+      "slot_name": "1",
+      "slot_id": {
+        "$oid": "64d0b61e4447ca5233caf806"
+      },
+      "startTime": 800,
+      "endTime": 1000,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "CAT": "HS2907 lec"
+    }
+  ],
+  "tut": [
+    {
+      "slot_name": "E1",
+      "day": "Tuesday",
+      "slot_id": {
+        "$oid": "64d0b67c4447ca5233caf807"
+      },
+      "startTime": 800,
+      "endTime": 1000,
+      "frequency": [
+        4,
+        6,
+        8,
+        10,
+        12
+      ],
+      "CAT": "HS2907 tut"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "E2",
+      "slot_id": {
+        "$oid": "64d0b70f4447ca5233caf808"
+      },
+      "startTime": 1000,
+      "endTime": 1200,
+      "CAT": "HS2907 tut",
+      "frequency": [
+        4,
+        6,
+        8,
+        10,
+        12
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "E3",
+      "slot_id": {
+        "$oid": "64d0b7524447ca5233caf809"
+      },
+      "frequency": [
+        4,
+        6,
+        8,
+        10,
+        12
+      ],
+      "startTime": 1400,
+      "endTime": 1600,
+      "CAT": "HS2907 tut"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "E4",
+      "slot_id": {
+        "$oid": "64d0b7924447ca5233caf80a"
+      },
+      "frequency": [
+        4,
+        6,
+        8,
+        10,
+        12
+      ],
+      "startTime": 1600,
+      "endTime": 1800,
+      "CAT": "HS2907 tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "E5",
+      "slot_id": {
+        "$oid": "64d0b8034447ca5233caf80b"
+      },
+      "frequency": [
+        4,
+        6,
+        8,
+        10,
+        12
+      ],
+      "startTime": 1200,
+      "endTime": 1400,
+      "CAT": "HS2907 tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "E6",
+      "slot_id": {
+        "$oid": "64d0b8e54447ca5233caf80c"
+      },
+      "startTime": 1400,
+      "endTime": 1600,
+      "CAT": "HS2907 tut",
+      "frequency": [
+        4,
+        6,
+        8,
+        10,
+        12
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "E7",
+      "slot_id": {
+        "$oid": "64d0b9134447ca5233caf80d"
+      },
+      "frequency": [
+        4,
+        6,
+        8,
+        10,
+        12
+      ],
+      "startTime": 1600,
+      "endTime": 1800,
+      "CAT": "HS2907 tut"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64d0b9e299797a78e6183f7a"
+  },
+  "name": "Transport Engineering",
+  "code": "CE3121",
+  "term": "1",
+  "lec": [
+    {
+      "day": "Monday",
+      "slot_name": "1",
+      "slot_id": {
+        "$oid": "64d1a67cdf488e4edac27604"
+      },
+      "startTime": 1700,
+      "endTime": 1800,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "CAT": "CE3121 lec",
+      "bundled": [
+        {
+          "$oid": "64d1a6a1df488e4edac27607"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "slot_name": "1",
+      "slot_id": {
+        "$oid": "64d1a6dadf488e4edac27607"
+      },
+      "startTime": 1200,
+      "endTime": 1400,
+      "CAT": "CE3121 lec",
+      "bundled": [
+        {
+          "$oid": "64d1a6fadf488e4edac27605"
+        }
+      ],
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    }
+  ],
+  "tut": [
+    {
+      "day": "Monday",
+      "slot_name": "01",
+      "slot_id": {
+        "$oid": "64d1a7e83085b697ec2daba1"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1300,
+      "endTime": 1400,
+      "CAT": "CE3121 tut"
+    }
+  ],
+  "lab": [
+    {
+      "day": "Monday",
+      "slot_name": "01",
+      "slot_id": {
+        "$oid": "64d1a87e3085b697ec2daba2"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 900,
+      "endTime": 1200,
+      "CAT": "CE3121 lab"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "02",
+      "slot_id": {
+        "$oid": "64d1a8c23085b697ec2daba3"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 900,
+      "endTime": 1200,
+      "CAT": "CE3121"
+    },
+    {
+      "day": "Thursday",
+      "slot_name": "03",
+      "slot_id": {
+        "$oid": "64d1a9083085b697ec2daba4"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 900,
+      "endTime": 1200,
+      "CAT": "CE3121 lab"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64d1a93fa540900e4c5f1699"
+  },
+  "name": "Structural Concrete Design",
+  "code": "CE3165",
+  "term": "1",
+  "lec": [
+    {
+      "CAT": "CE3165 lec",
+      "bundled": [
+        {
+          "$oid": "64d1ab753085b697ec2daba7"
+        }
+      ],
+      "day": "Tuesday",
+      "endTime": 1800,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1ab453085b697ec2daba5"
+      },
+      "slot_name": "1",
+      "startTime": 1700
+    },
+    {
+      "day": "Thursday",
+      "slot_name": "1",
+      "slot_id": {
+        "$oid": "64d1ab963085b697ec2daba7"
+      },
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1400,
+      "endTime": 1600,
+      "CAT": "CE3165 lec",
+      "bundled": [
+        {
+          "$oid": "64d1abc33085b697ec2daba5"
+        }
+      ]
+    }
+  ],
+  "tut": [
+    {
+      "CAT": "CE3165 tut",
+      "day": "Monday",
+      "endTime": 1500,
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1ac013085b697ec2daba9"
+      },
+      "slot_name": "01",
+      "startTime": 1400
+    },
+    {
+      "day": "Monday",
+      "slot_name": "02",
+      "slot_id": {
+        "$oid": "64d1ac433085b697ec2dabaa"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1500,
+      "endTime": 1600,
+      "CAT": "CE3165 tut"
+    },
+    {
+      "day": "Monday",
+      "slot_name": "03",
+      "slot_id": {
+        "$oid": "64d1ac7e3085b697ec2dabab"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1600,
+      "endTime": 1700,
+      "CAT": "CE3165 tut"
+    }
+  ],
+  "lab": [
+    {
+      "day": "Monday",
+      "CAT": "CE3165 lab",
+      "endTime": 1200,
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1acf13085b697ec2dabac"
+      },
+      "slot_name": "01",
+      "startTime": 900
+    },
+    {
+      "CAT": "CE3165 lab",
+      "day": "Tuesday",
+      "endTime": 1200,
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1ad2b3085b697ec2dabad"
+      },
+      "slot_name": "02",
+      "startTime": 900
+    },
+    {
+      "CAT": "CE3165 lab",
+      "day": "Thursday",
+      "endTime": 1200,
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1ad703085b697ec2dabae"
+      },
+      "slot_name": "03",
+      "startTime": 900
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64d1a976a540900e4c5f169a"
+  },
+  "name": "Engineering Professionalism",
+  "code": "EG2401A",
+  "term": "1",
+  "lec": [
+    {
+      "CAT": "EG2104A lec",
+      "day": "Tuesday",
+      "endTime": 1600,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1aece9184418684c53d0c"
+      },
+      "slot_name": "1",
+      "startTime": 1400
+    },
+    {
+      "day": "Thursday",
+      "slot_name": "2",
+      "slot_id": {
+        "$oid": "64d1af109184418684c53d0d"
+      },
+      "startTime": 1800,
+      "endTime": 2000,
+      "CAT": "EG2104A lec",
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    }
+  ],
+  "tut": [
+    {
+      "CAT": "EG2104A tut",
+      "day": "Monday",
+      "endTime": 1100,
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1af999184418684c53d0e"
+      },
+      "slot_name": "101/102",
+      "startTime": 1000
+    },
+    {
+      "day": "Monday",
+      "slot_name": "103/104",
+      "slot_id": {
+        "$oid": "64d1afd79184418684c53d0f"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1100,
+      "endTime": 1200,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "CAT": "EG2104A tut",
+      "day": "Monday",
+      "endTime": 1300,
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1b0229184418684c53d10"
+      },
+      "slot_name": "105/107",
+      "startTime": 1200
+    },
+    {
+      "CAT": "EG2104A tut",
+      "day": "Monday",
+      "endTime": 1400,
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1b1d19184418684c53d11"
+      },
+      "slot_name": "106",
+      "startTime": 1300
+    },
+    {
+      "day": "Monday",
+      "slot_name": "108",
+      "slot_id": {
+        "$oid": "64d1b2369184418684c53d12"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1500,
+      "endTime": 1600,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Monday",
+      "slot_name": "109",
+      "slot_id": {
+        "$oid": "64d1b2709184418684c53d13"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1600,
+      "endTime": 1700,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Monday",
+      "slot_name": "110",
+      "slot_id": {
+        "$oid": "64d1b2bd9184418684c53d14"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1700,
+      "endTime": 1800,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Monday",
+      "slot_name": "111/112",
+      "slot_id": {
+        "$oid": "64d1b3119184418684c53d15"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1800,
+      "endTime": 1900,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Monday",
+      "slot_name": "113/114",
+      "slot_id": {
+        "$oid": "64d1b34c9184418684c53d16"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1900,
+      "endTime": 2000,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "201",
+      "slot_id": {
+        "$oid": "64d1b3a69184418684c53d17"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 900,
+      "endTime": 1000,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "203",
+      "slot_id": {
+        "$oid": "64d1b3e59184418684c53d18"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1000,
+      "endTime": 1100,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Tuesday",
+      "CAT": "EG2104A tut",
+      "endTime": 1200,
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1b4299184418684c53d19"
+      },
+      "slot_name": "204",
+      "startTime": 1100
+    },
+    {
+      "CAt": "EG2104A tut",
+      "day": "Tuesday",
+      "endTime": 1300,
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1b4649184418684c53d1a"
+      },
+      "slot_name": "205",
+      "startTime": 1200
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "206",
+      "slot_id": {
+        "$oid": "64d1b4d39184418684c53d1b"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1300,
+      "endTime": 1400,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "207",
+      "slot_id": {
+        "$oid": "64d1b5139184418684c53d1c"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1400,
+      "endTime": 1500,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "208",
+      "slot_id": {
+        "$oid": "64d1b55f9184418684c53d1d"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1500,
+      "endTime": 1600,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "209",
+      "slot_id": {
+        "$oid": "64d1b5999184418684c53d1e"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1600,
+      "endTime": 1700,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "202/210",
+      "slot_id": {
+        "$oid": "64d1b6649184418684c53d21"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1700,
+      "endTime": 1800,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "211/212",
+      "slot_id": {
+        "$oid": "64d1b63f9184418684c53d20"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1800,
+      "endTime": 1900,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "213/214",
+      "slot_id": {
+        "$oid": "64d1b61d9184418684c53d1f"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1900,
+      "endTime": 2000,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "301",
+      "slot_id": {
+        "$oid": "64d1d614cd0c84c45bfae6a1"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 900,
+      "endTime": 1000,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "302/303",
+      "slot_id": {
+        "$oid": "64d1d65ccd0c84c45bfae6a3"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1000,
+      "endTime": 1100,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "304/305",
+      "slot_id": {
+        "$oid": "64d1d6a1cd0c84c45bfae6a4"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1100,
+      "endTime": 1200,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "306",
+      "slot_id": {
+        "$oid": "64d1d6decd0c84c45bfae6a5"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1400,
+      "endTime": 1500,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_id": {
+        "$oid": "64d1d714cd0c84c45bfae6a6"
+      },
+      "slot_name": "307",
+      "startTime": 1500,
+      "endTime": 1600,
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "308",
+      "slot_id": {
+        "$oid": "64d1d750cd0c84c45bfae6a7"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1600,
+      "endTime": 1700,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "309",
+      "slot_id": {
+        "$oid": "64d1d789cd0c84c45bfae6a8"
+      },
+      "startTime": 1700,
+      "endTime": 1800,
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "311",
+      "slot_id": {
+        "$oid": "64d1d7c3cd0c84c45bfae6a9"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1800,
+      "endTime": 1900,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "312",
+      "slot_id": {
+        "$oid": "64d1d84dcd0c84c45bfae6aa"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1900,
+      "endTime": 2000,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Thursday",
+      "slot_name": "401",
+      "slot_id": {
+        "$oid": "64d1d91ccd0c84c45bfae6ab"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 900,
+      "endTime": 1000,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Thursday",
+      "slot_name": "402/403",
+      "slot_id": {
+        "$oid": "64d1d95bcd0c84c45bfae6ac"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1000,
+      "endTime": 1100,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "slot_name": "404/405",
+      "slot_id": {
+        "$oid": "64d1d98fcd0c84c45bfae6ad"
+      },
+      "day": "Thursday",
+      "startTime": 1100,
+      "endTime": 1200,
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "CAT": "EG2104A tut"
+    },
+    {
+      "slot_name": "406",
+      "slot_id": {
+        "$oid": "64d1d9cecd0c84c45bfae6ae"
+      },
+      "day": "Thursday",
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1200,
+      "endTime": 1300,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Thursday",
+      "slot_name": "407/408",
+      "slot_id": {
+        "$oid": "64d1da0ecd0c84c45bfae6af"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1300,
+      "endTime": 1400,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Thursday",
+      "slot_name": "410",
+      "slot_id": {
+        "$oid": "64d1da4acd0c84c45bfae6b0"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1400,
+      "endTime": 1500,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Thursday",
+      "slot_name": "411",
+      "slot_id": {
+        "$oid": "64d1da82cd0c84c45bfae6b1"
+      },
+      "startTime": 1500,
+      "endTime": 1600,
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "CAT": "EG2104A tut"
+    },
+    {
+      "slot_name": "412",
+      "slot_id": {
+        "$oid": "64d1dabdcd0c84c45bfae6b2"
+      },
+      "day": "Thursday",
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1600,
+      "endTime": 1700,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Thursday",
+      "slot_name": "413/414",
+      "slot_id": {
+        "$oid": "64d1dafbcd0c84c45bfae6b3"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1700,
+      "endTime": 1800,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Friday",
+      "slot_name": "501",
+      "slot_id": {
+        "$oid": "64d1db65cd0c84c45bfae6b4"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 900,
+      "endTime": 1000,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Friday",
+      "slot_name": "502/503",
+      "slot_id": {
+        "$oid": "64d1db9acd0c84c45bfae6b5"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1000,
+      "endTime": 1100,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Friday",
+      "slot_name": "504",
+      "slot_id": {
+        "$oid": "64d1dbd4cd0c84c45bfae6b6"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1100,
+      "endTime": 1200,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Friday",
+      "slot_name": "506",
+      "slot_id": {
+        "$oid": "64d1dc14cd0c84c45bfae6b7"
+      },
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1200,
+      "endTime": 1300,
+      "CAT": "EG2104A tut"
+    },
+    {
+      "day": "Friday",
+      "slot_name": "507",
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1300,
+      "endTime": 1400,
+      "CAT": "EG2104A tut",
+      "slot_id": {
+        "$oid": "64d1dc85cd0c84c45bfae6b8"
+      }
+    },
+    {
+      "CAT": "EG2104A tut",
+      "day": "Friday",
+      "endTime": 1500,
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1dcc1cd0c84c45bfae6b9"
+      },
+      "slot_name": "508",
+      "startTime": 1400
+    },
+    {
+      "CAT": "EG2104A tut",
+      "day": "Friday",
+      "endTime": 1600,
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1dcfbcd0c84c45bfae6ba"
+      },
+      "slot_name": "509",
+      "startTime": 1500
+    },
+    {
+      "CAT": "EG2104A tut",
+      "day": "Friday",
+      "endTime": 1700,
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1dd4ecd0c84c45bfae6bb"
+      },
+      "slot_name": "510",
+      "startTime": 1600
+    },
+    {
+      "CAT": "EG2104A tut",
+      "day": "Friday",
+      "endTime": 1800,
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1dd85cd0c84c45bfae6bc"
+      },
+      "slot_name": "511",
+      "startTime": 1700
+    },
+    {
+      "CAT": "EG2104A tut",
+      "day": "Friday",
+      "endTime": 1900,
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1ddc8cd0c84c45bfae6bd"
+      },
+      "slot_name": "512",
+      "startTime": 1800
+    },
+    {
+      "CAT": "EG2104A tut",
+      "day": "Friday",
+      "endTime": 2000,
+      "frequency": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1ddfecd0c84c45bfae6be"
+      },
+      "slot_name": "513/514",
+      "startTime": 1900
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64d1bb4c2105ca304845f056"
+  },
+  "code": "HS1501",
+  "name": "Artificial Intelligence and Society",
+  "term": "1",
+  "lec": [
+    {
+      "CAT": "HS1501 lec",
+      "day": "Wednesday",
+      "endTime": 2000,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1bbcacd0c84c45bfae639"
+      },
+      "slot_name": "1",
+      "startTime": 1800
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64d1bc0f2105ca304845f057"
+  },
+  "code": "PLS8001",
+  "name": "Cultivating Collaboration",
+  "sec": [
+    {
+      "CAT": "PLS8001 sec",
+      "day": "Monday",
+      "endTime": 1200,
+      "frequency": [
+        1,
+        3,
+        5
+      ],
+      "slot_id": {
+        "$oid": "64d1bcb6cd0c84c45bfae63a"
+      },
+      "slot_name": "MO1",
+      "startTime": 900
+    },
+    {
+      "day": "Monday",
+      "slot_name": "MO2",
+      "slot_id": {
+        "$oid": "64d1bcf6cd0c84c45bfae63b"
+      },
+      "frequency": [
+        7,
+        9,
+        11
+      ],
+      "startTime": 900,
+      "endTime": 1200,
+      "CAT": "PLS8001 sec"
+    },
+    {
+      "CAT": "PLS8001 sec",
+      "day": "Monday",
+      "endTime": 1800,
+      "frequency": [
+        8,
+        10,
+        12
+      ],
+      "slot_id": {
+        "$oid": "64d1bd32cd0c84c45bfae63c"
+      },
+      "slot_name": "ME2",
+      "startTime": 1500
+    },
+    {
+      "CAT": "PLS8001 sec",
+      "day": "Tuesday",
+      "endTime": 1500,
+      "frequency": [
+        2,
+        4,
+        6
+      ],
+      "slot_id": {
+        "$oid": "64d1bd78cd0c84c45bfae63d"
+      },
+      "slot_name": "TE1",
+      "startTime": 1200
+    },
+    {
+      "CAT": "PLS8001 sec",
+      "day": "Tuesday",
+      "endTime": 1500,
+      "frequency": [
+        1,
+        3,
+        5
+      ],
+      "slot_id": {
+        "$oid": "64d1bdd1cd0c84c45bfae63f"
+      },
+      "slot_name": "TO1",
+      "startTime": 1200
+    },
+    {
+      "CAT": "PLS8001 sec",
+      "day": "Wednesday",
+      "endTime": 1200,
+      "frequency": [
+        1,
+        3,
+        5
+      ],
+      "slot_id": {
+        "$oid": "64d1be35cd0c84c45bfae640"
+      },
+      "slot_name": "WO1",
+      "startTime": 900
+    },
+    {
+      "CAT": "PLS8001 sec",
+      "day": "Wednesday",
+      "endTime": 1200,
+      "frequency": [
+        7,
+        9,
+        11
+      ],
+      "slot_id": {
+        "$oid": "64d1be77cd0c84c45bfae641"
+      },
+      "slot_name": "WO2",
+      "startTime": 900
+    },
+    {
+      "CAT": "PLS8001 sec",
+      "day": "Wednesday",
+      "endTime": 1500,
+      "frequency": [
+        2,
+        4,
+        6
+      ],
+      "slot_id": {
+        "$oid": "64d1bec6cd0c84c45bfae642"
+      },
+      "slot_name": "HE1",
+      "startTime": 1200
+    },
+    {
+      "CAt": "PLS8001 sec",
+      "day": "Thursday",
+      "endTime": 1500,
+      "frequency": [
+        8,
+        10,
+        12
+      ],
+      "slot_id": {
+        "$oid": "64d1bf13cd0c84c45bfae643"
+      },
+      "slot_name": "HE2",
+      "startTime": 1200
+    },
+    {
+      "CAT": "PLS8001 sec",
+      "day": "Thursday",
+      "endTime": 1500,
+      "frequency": [
+        7,
+        9,
+        11
+      ],
+      "slot_id": {
+        "$oid": "64d1bf47cd0c84c45bfae644"
+      },
+      "slot_name": "HE3",
+      "startTime": 1200
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64d1bf822105ca304845f058"
+  },
+  "code": "PLS8005",
+  "name": "Elevating Interpersonal Communication",
+  "term": "1",
+  "sec": [
+    {
+      "CAT": "PLS8005 sec",
+      "day": "Monday",
+      "endTime": 1200,
+      "frequency": [
+        2,
+        4,
+        6
+      ],
+      "slot_id": {
+        "$oid": "64d1c01dcd0c84c45bfae645"
+      },
+      "slot_name": "ME1",
+      "startTime": 900
+    },
+    {
+      "day": "Monday",
+      "slot_name": "ME2",
+      "slot_id": {
+        "$oid": "64d1c040cd0c84c45bfae646"
+      },
+      "frequency": [
+        8,
+        10,
+        12
+      ],
+      "startTime": 1200,
+      "endTime": 1500,
+      "CAT": "PLS8005 sec"
+    },
+    {
+      "day": "Monday",
+      "slot_name": "MO2",
+      "slot_id": {
+        "$oid": "64d1c07dcd0c84c45bfae647"
+      },
+      "frequency": [
+        7,
+        9,
+        11
+      ],
+      "startTime": 1500,
+      "endTime": 1800,
+      "CAT": "PLS8005 sec"
+    },
+    {
+      "CAT": "PLS8005 sec",
+      "day": "Tuesday",
+      "endTime": 1500,
+      "frequency": [
+        7,
+        9,
+        11
+      ],
+      "slot_id": {
+        "$oid": "64d1c0c2cd0c84c45bfae648"
+      },
+      "slot_name": "TO2",
+      "startTime": 1200
+    },
+    {
+      "CAT": "PLS8005 sec",
+      "day": "Wednesday",
+      "endTime": 900,
+      "frequency": [
+        2,
+        4,
+        6
+      ],
+      "slot_id": {
+        "$oid": "64d1c100cd0c84c45bfae649"
+      },
+      "slot_name": "WE1",
+      "startTime": 1200
+    },
+    {
+      "CAT": "PLS8005 sec",
+      "day": "Wednesday",
+      "endTime": 1500,
+      "frequency": [
+        8,
+        10,
+        12
+      ],
+      "slot_id": {
+        "$oid": "64d1c150cd0c84c45bfae64a"
+      },
+      "slot_name": "WE2",
+      "startTime": 1200
+    },
+    {
+      "CAT": "PLS8005 sec",
+      "day": "Wednesday",
+      "endTime": 1800,
+      "frequency": [
+        1,
+        3,
+        5
+      ],
+      "slot_id": {
+        "$oid": "64d1c186cd0c84c45bfae64b"
+      },
+      "slot_name": "WO1",
+      "startTime": 1500
+    },
+    {
+      "CAT": "PLS8005 sec",
+      "day": "Thursday",
+      "endTime": 1200,
+      "frequency": [
+        1,
+        3,
+        5
+      ],
+      "slot_id": {
+        "$oid": "64d1c1c4cd0c84c45bfae64c"
+      },
+      "slot_name": "HO1",
+      "startTime": 900
+    },
+    {
+      "CAT": "PLS8005 sec",
+      "day": "Friday",
+      "endTime": 1800,
+      "frequency": [
+        2,
+        4,
+        6
+      ],
+      "slot_id": {
+        "$oid": "64d1c1f2cd0c84c45bfae64d"
+      },
+      "slot_name": "FE1",
+      "startTime": 1500
+    },
+    {
+      "CAT": "PLS8005 sec",
+      "day": "Friday",
+      "endTime": 1800,
+      "frequency": [
+        7,
+        9,
+        11
+      ],
+      "slot_id": {
+        "$oid": "64d1c231cd0c84c45bfae64e"
+      },
+      "slot_name": "FO2",
+      "startTime": 1500
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64d1c2682105ca304845f059"
+  },
+  "code": "FAS1101",
+  "name": "Writing Academically: Arts and Social Science",
+  "term": "1",
+  "tut": [
+    {
+      "CAT": "FAS1101 tut",
+      "day": "Monday",
+      "endTime": 1200,
+      "frequency": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1c2e9cd0c84c45bfae64f"
+      },
+      "slot_name": "01/17",
+      "startTime": 1000
+    },
+    {
+      "day": "Monday",
+      "slot_name": "02/18",
+      "slot_id": {
+        "$oid": "64d1c32dcd0c84c45bfae650"
+      },
+      "frequency": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1200,
+      "endTime": 1400,
+      "CAT": "FAS1101 tut"
+    },
+    {
+      "day": "Monday",
+      "slot_name": "03/19",
+      "slot_id": {
+        "$oid": "64d1c37acd0c84c45bfae651"
+      },
+      "startTime": 1600,
+      "endTime": 1800,
+      "frequency": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "CAT": "FAS1101 tut"
+    },
+    {
+      "CAT": "FAS1101 tut",
+      "day": "Tuesday",
+      "endTime": 1200,
+      "frequency": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1c3dbcd0c84c45bfae652"
+      },
+      "slot_name": "04/20",
+      "startTime": 1000
+    },
+    {
+      "CAT": "FAS1101 tut",
+      "day": "Tuesday",
+      "endTime": 1400,
+      "frequency": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1c42fcd0c84c45bfae653"
+      },
+      "slot_name": "05/21",
+      "startTime": 1200
+    },
+    {
+      "CAT": "FAS1101 tut",
+      "day": "Tuesday",
+      "endTime": 1600,
+      "frequency": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1c483cd0c84c45bfae654"
+      },
+      "slot_name": "06/22",
+      "startTime": 1400
+    },
+    {
+      "CAT": "FAS1101 tut",
+      "day": "Tuesday",
+      "endTime": 1800,
+      "frequency": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1c4cbcd0c84c45bfae655"
+      },
+      "slot_name": "07",
+      "startTime": 1600
+    },
+    {
+      "CAT": "FAS1101 tut",
+      "day": "Wednesday",
+      "endTime": 1200,
+      "frequency": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1c570cd0c84c45bfae656"
+      },
+      "slot_name": "08",
+      "startTime": 1000
+    },
+    {
+      "CAT": "FAS1101 tut",
+      "day": "Wednesday",
+      "endTime": 1400,
+      "frequency": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1c5b4cd0c84c45bfae657"
+      },
+      "slot_name": "09",
+      "startTime": 1200
+    },
+    {
+      "CAT": "FAS1101 tut",
+      "day": "Wednesday",
+      "endTime": 1600,
+      "frequency": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1c5f1cd0c84c45bfae658"
+      },
+      "slot_name": "10",
+      "startTime": 1400
+    },
+    {
+      "cAT": "FAS1101 tut",
+      "day": "Thursday",
+      "endTime": 1200,
+      "frequency": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1c641cd0c84c45bfae659"
+      },
+      "slot_name": "11",
+      "startTime": 1000
+    },
+    {
+      "CAT": "FAS1101 tut",
+      "day": "Thursday",
+      "endTime": 1400,
+      "frequency": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1c677cd0c84c45bfae65a"
+      },
+      "slot_name": "12",
+      "startTime": 1200
+    },
+    {
+      "CAT": "FAS1101 tut",
+      "day": "Thusday",
+      "endTime": 1600,
+      "frequency": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_name": "13",
+      "startTime": 1400,
+      "slot_id": {
+        "$oid": "64d1c6cecd0c84c45bfae65b"
+      }
+    },
+    {
+      "CAT": "FAS1101 tut",
+      "day": "Friday",
+      "endTime": 1200,
+      "frequency": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1c70ccd0c84c45bfae65c"
+      },
+      "slot_name": "14",
+      "startTime": 1000
+    },
+    {
+      "CAT": "FAS1101 tut",
+      "day": "Friday",
+      "endTime": 1400,
+      "frequency": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1c750cd0c84c45bfae65d"
+      },
+      "slot_name": "15",
+      "startTime": 1200
+    },
+    {
+      "CAT": "FAS1101 tut",
+      "day": "Friday",
+      "endTime": 1600,
+      "frequency": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1c789cd0c84c45bfae65e"
+      },
+      "slot_name": "16",
+      "startTime": 1400
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64d1c7c02105ca304845f05a"
+  },
+  "name": "Korean 2",
+  "code": "LAK2201",
+  "term": "1",
+  "lec": [
+    {
+      "CAT": "LAK2201 lec",
+      "bundled": [
+        {
+          "$oid": "64d1c87ecd0c84c45bfae662"
+        }
+      ],
+      "day": "Tuesday",
+      "endTime": 1200,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1c829cd0c84c45bfae65f"
+      },
+      "slot_name": "1",
+      "startTime": 1000
+    },
+    {
+      "day": "Thursday",
+      "slot_name": "1",
+      "slot_id": {
+        "$oid": "64d1c881cd0c84c45bfae662"
+      },
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1000,
+      "endTime": 1200,
+      "CAT": "LAK2201 lec",
+      "bundled": [
+        {
+          "$oid": "64d1c8b6cd0c84c45bfae65f"
+        }
+      ]
+    },
+    {
+      "CAT": "LAK2201 lec",
+      "bundled": [
+        {
+          "$oid": "64d1c8e3cd0c84c45bfae666"
+        }
+      ],
+      "day": "Tuesday",
+      "endTime": 1400,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1c8dccd0c84c45bfae664"
+      },
+      "slot_name": "2",
+      "startTime": 1200
+    },
+    {
+      "CAT": "LAK2201 lec",
+      "bundled": [
+        {
+          "$oid": "64d1c932cd0c84c45bfae664"
+        }
+      ],
+      "day": "Thursday",
+      "endTime": 1400,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1c92fcd0c84c45bfae666"
+      },
+      "slot_name": "2",
+      "startTime": 1200
+    },
+    {
+      "CAT": "LAK2201 lec",
+      "bundled": [
+        {
+          "$oid": "64d1c9bfcd0c84c45bfae66b"
+        }
+      ],
+      "day": "Tuesday",
+      "endTime": 1800,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1c99acd0c84c45bfae669"
+      },
+      "slot_name": "3",
+      "startTime": 1600
+    },
+    {
+      "CAT": "LAK2201 lec",
+      "bundled": [
+        {
+          "$oid": "64d1ca11cd0c84c45bfae669"
+        }
+      ],
+      "day": "Thursday",
+      "endTime": 1800,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1c9e1cd0c84c45bfae66b"
+      },
+      "slot_name": "3",
+      "startTime": 1600
+    },
+    {
+      "CAT": "LAK2201 lec",
+      "bundled": [
+        {
+          "$oid": "64d1ca5dcd0c84c45bfae66f"
+        }
+      ],
+      "day": "Tuesday",
+      "endTime": 2000,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1ca3fcd0c84c45bfae66d"
+      },
+      "slot_name": "4",
+      "startTime": 1800
+    },
+    {
+      "CAT": "LAK2201 lec",
+      "bundled": [
+        {
+          "$oid": "64d1caabcd0c84c45bfae66d"
+        }
+      ],
+      "day": "Thursday",
+      "endTime": 2000,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1ca7dcd0c84c45bfae66f"
+      },
+      "slot_name": "4",
+      "startTime": 1800
+    },
+    {
+      "CAT": "LAK2201 lec",
+      "bundled": [
+        {
+          "$oid": "64d1cb1bcd0c84c45bfae673"
+        }
+      ],
+      "day": "Wednesday",
+      "endTime": 1600,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1caf7cd0c84c45bfae671"
+      },
+      "slot_name": "5",
+      "startTime": 1400
+    },
+    {
+      "CAT": "LAK2201 lec",
+      "bundled": [
+        {
+          "$oid": "64d1cb4ecd0c84c45bfae671"
+        }
+      ],
+      "day": "Friday",
+      "endTime": 1600,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1cb25cd0c84c45bfae673"
+      },
+      "slot_name": "5",
+      "startTime": 1400
+    },
+    {
+      "CAT": "LAK2201 lec",
+      "bundled": [
+        {
+          "$oid": "64d1cbb6cd0c84c45bfae677"
+        }
+      ],
+      "day": "Wednesday",
+      "endTime": 1800,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1cb88cd0c84c45bfae675"
+      },
+      "slot_name": "6",
+      "startTime": 1600
+    },
+    {
+      "CAT": "LAK2201 lec",
+      "bundled": [
+        {
+          "$oid": "64d1cbf3cd0c84c45bfae675"
+        }
+      ],
+      "day": "Friday",
+      "endTime": 1800,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1cbd3cd0c84c45bfae677"
+      },
+      "slot_name": "6",
+      "startTime": 1600
+    },
+    {
+      "CAT": "LAK2201 lec",
+      "bundled": [
+        {
+          "$oid": "64d1cc54cd0c84c45bfae67b"
+        }
+      ],
+      "day": "Wednesday",
+      "endTime": 2000,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1cc2fcd0c84c45bfae679"
+      },
+      "slot_name": "7",
+      "startTime": 1800
+    },
+    {
+      "CAT": "LAK2201 lec",
+      "bundled": [
+        {
+          "$oid": "64d1cc89cd0c84c45bfae679"
+        }
+      ],
+      "day": "Friday",
+      "endTime": 2000,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1cc61cd0c84c45bfae67b"
+      },
+      "slot_name": "7",
+      "startTime": 1800
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64d1ccc72105ca304845f05b"
+  },
+  "code": "EC1101E",
+  "name": "Introduction to Economic Analysis",
+  "term": "1",
+  "lec": [
+    {
+      "CAT": "EC1101E lec",
+      "day": "Monday",
+      "endTime": 1200,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1cd23cd0c84c45bfae67d"
+      },
+      "slot_name": "1",
+      "startTime": 1000
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "2",
+      "slot_id": {
+        "$oid": "64d1cd68cd0c84c45bfae67f"
+      },
+      "startTime": 1000,
+      "frequency": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "endTime": 1200,
+      "CAT": "EC1101E lec"
+    }
+  ],
+  "tut": [
+    {
+      "CAT": "EC1101E tut",
+      "day": "Monday",
+      "endTime": 1300,
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1cdd7cd0c84c45bfae680"
+      },
+      "slot_name": "W01",
+      "startTime": 1200
+    },
+    {
+      "day": "Monday",
+      "slot_name": "W02",
+      "slot_id": {
+        "$oid": "64d1ce0fcd0c84c45bfae681"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1300,
+      "endTime": 1400,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "day": "Monday",
+      "slot_id": {
+        "$oid": "64d1ce3fcd0c84c45bfae682"
+      },
+      "slot_name": "W03",
+      "startTime": 1400,
+      "endTime": 1500,
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "CAT": "EC1101E tut"
+    },
+    {
+      "day": "Monday",
+      "slot_name": "W04",
+      "slot_id": {
+        "$oid": "64d1ce76cd0c84c45bfae683"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1500,
+      "endTime": 1600,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "CAT": "EC1101E tut",
+      "day": "Monday",
+      "endTime": 1700,
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1cebacd0c84c45bfae684"
+      },
+      "slot_name": "W05",
+      "startTime": 1600
+    },
+    {
+      "CAT": "EC1101E tut",
+      "day": "Monday",
+      "endTime": 1800,
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1cef5cd0c84c45bfae685"
+      },
+      "slot_name": "W06",
+      "startTime": 1700
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "W07",
+      "slot_id": {
+        "$oid": "64d1cf41cd0c84c45bfae686"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1200,
+      "endTime": 1300,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "W08",
+      "slot_id": {
+        "$oid": "64d1cf82cd0c84c45bfae687"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1300,
+      "endTime": 1400,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "W09",
+      "slot_id": {
+        "$oid": "64d1cfb4cd0c84c45bfae688"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1400,
+      "endTime": 1500,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "W10",
+      "slot_id": {
+        "$oid": "64d1cff4cd0c84c45bfae689"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1500,
+      "endTime": 1600,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "W11",
+      "slot_id": {
+        "$oid": "64d1d036cd0c84c45bfae68a"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1600,
+      "endTime": 1700,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "day": "Tuesday",
+      "slot_name": "W12",
+      "slot_id": {
+        "$oid": "64d1d06ecd0c84c45bfae68b"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1700,
+      "endTime": 1800,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "W13",
+      "slot_id": {
+        "$oid": "64d1d0dccd0c84c45bfae68c"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 900,
+      "endTime": 1000,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "W14",
+      "slot_id": {
+        "$oid": "64d1d117cd0c84c45bfae68d"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1000,
+      "endTime": 1100,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "W15",
+      "slot_id": {
+        "$oid": "64d1d14dcd0c84c45bfae68e"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1100,
+      "endTime": 1200,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "W16",
+      "slot_id": {
+        "$oid": "64d1d184cd0c84c45bfae68f"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1200,
+      "endTime": 1300,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "W17",
+      "slot_id": {
+        "$oid": "64d1d1bacd0c84c45bfae690"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1300,
+      "endTime": 1400,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "W18",
+      "slot_id": {
+        "$oid": "64d1d1f7cd0c84c45bfae691"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1400,
+      "endTime": 1500,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "W19",
+      "slot_id": {
+        "$oid": "64d1d22bcd0c84c45bfae692"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1500,
+      "endTime": 1600,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "W20",
+      "slot_id": {
+        "$oid": "64d1d25ecd0c84c45bfae693"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1600,
+      "endTime": 1700,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "day": "Wednesday",
+      "slot_name": "W21",
+      "slot_id": {
+        "$oid": "64d1d29dcd0c84c45bfae694"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1700,
+      "endTime": 1800,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "day": "Thursday",
+      "slot_name": "W22",
+      "slot_id": {
+        "$oid": "64d1d2fecd0c84c45bfae695"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 900,
+      "endTime": 1000,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "day": "Thursday",
+      "slot_name": "W23",
+      "slot_id": {
+        "$oid": "64d1d336cd0c84c45bfae696"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1000,
+      "endTime": 1100,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "slot_name": "W24",
+      "day": "Thursday",
+      "slot_id": {
+        "$oid": "64d1d36bcd0c84c45bfae697"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1100,
+      "endTime": 1200,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "day": "Thursday",
+      "slot_name": "W25",
+      "slot_id": {
+        "$oid": "64d1d3aacd0c84c45bfae698"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1200,
+      "endTime": 1300,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "day": "Thursday",
+      "slot_name": "W26",
+      "slot_id": {
+        "$oid": "64d1d3e0cd0c84c45bfae699"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1300,
+      "endTime": 1400,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "day": "Thursday",
+      "slot_name": "W27",
+      "slot_id": {
+        "$oid": "64d1d418cd0c84c45bfae69a"
+      },
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1400,
+      "endTime": 1500,
+      "CAT": "EC1101E tut"
+    },
+    {
+      "day": "Thursday",
+      "slot_name": "W28",
+      "slot_id": {
+        "$oid": "64d1d45fcd0c84c45bfae69b"
+      },
+      "CAT": "EC1101E tut",
+      "endTime": 1600,
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "startTime": 1500
+    },
+    {
+      "CAT": "EC1101E tut",
+      "day": "Thursday",
+      "endTime": 1700,
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1d496cd0c84c45bfae69c"
+      },
+      "slot_name": "W29",
+      "startTime": 1600
+    },
+    {
+      "CAT": "EC1101E tut",
+      "day": "Thursday",
+      "endTime": 1800,
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1d4e3cd0c84c45bfae69d"
+      },
+      "slot_name": "W30",
+      "startTime": 1700
+    },
+    {
+      "CAT": "EC1101E tut",
+      "day": "Friday",
+      "endTime": 1100,
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1d51acd0c84c45bfae69e"
+      },
+      "slot_name": "W31",
+      "startTime": 1000
+    },
+    {
+      "CAT": "EC1101E tut",
+      "day": "Friday",
+      "endTime": 1200,
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1d54dcd0c84c45bfae69f"
+      },
+      "slot_name": "W32",
+      "startTime": 1100
+    },
+    {
+      "CAT": "EC1101E tut",
+      "day": "Friday",
+      "endTime": 1300,
+      "frequency": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "slot_id": {
+        "$oid": "64d1d57fcd0c84c45bfae6a0"
+      },
+      "slot_name": "W33",
+      "startTime": 1200
+    }
+  ]
 }]

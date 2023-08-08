@@ -84,6 +84,7 @@ function App() {
 		setPopupActive(false);
 		localStorage.setItem("filteredCourses", JSON.stringify([]));
 		setFilteredCourses([]);
+		console.log(selectedCourses.map(course => course.code).join());
     }
 
 	// TO DELETE ONE SPECIFIC COURSE FROM THE ARRAY 'SELECTEDCOURSES'

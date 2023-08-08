@@ -616,8 +616,9 @@ function App() {
   return (
     <div className="App">
 			<h1>Welcome to the Schedule Generator!</h1>
-			{ selectedCourses.length === 0 && generated === "false" && <h2>Start by selecting a semester below</h2> }
-			{ selectedCourses.length > 0 && generated === "false" &&
+			{ selectedCourses !== null && selectedCourses.length === 0 && generated === "false" 
+				&& <h2>Start by selecting a semester below</h2> }
+			{ selectedCourses !== null && selectedCourses.length > 0 && generated === "false" &&
 				( (selectedCourses[0].term === "1" && <h4>Your Semester 1 Courses</h4>) ||
 				(selectedCourses[0].term === "2" && <h4>Your Semester 2 Courses</h4>) ||
 				(selectedCourses[0].term === "3" && <h4>Your Special Term I Courses</h4>) ||
@@ -626,7 +627,7 @@ function App() {
 			<button className="resetEverythingButton" onClick={resetPage}>Reset Everything</button>
 			<button className="resetButton" onClick={resetButKeepCourses}>Reset (Keep Courses)</button>
 			<div className="courses">
-				{selectedCourses.length > 0 && generated === "false" && selectedCourses.map(course => (
+				{selectedCourses !== null && selectedCourses.length > 0 && generated === "false" && selectedCourses.map(course => (
 						<div className={"course"} key={course._id}>
 
 							<div className="text">{course.code} {course.name}</div>
@@ -650,7 +651,7 @@ function App() {
 				</label>
 			</div>
 			<div>
-				{selectedCourses.length === 0 && <div>
+				{selectedCourses !== null && selectedCourses.length === 0 && <div>
 					<button className="SemButton" id="chooseSemButton" onClick={e => { setSemPopupActive(true); }}>Select a Semester</button>
 					{sempopupActive ? (
 						<div className="sempopup">
@@ -698,7 +699,7 @@ function App() {
 				) : ''}
 			</div>
 			<div>
-			{selectedCourses.length > 0 && generated === "false" && limitpopupActive === false &&
+			{selectedCourses !== null && selectedCourses.length > 0 && generated === "false" && limitpopupActive === false &&
 				<div className="limit" onClick={() => setLimitPopupActive(true)}>Set Limit</div>
 			}
 
@@ -723,7 +724,7 @@ function App() {
 				) : ''}
 			</div>
 			<div>
-				{selectedCourses.length > 0 && generated ==="false" && GetFixedSlots().length === 0 &&
+				{selectedCourses !== null && selectedCourses.length > 0 && generated ==="false" && GetFixedSlots().length === 0 &&
 					<button className="generateButton" onClick={e => {setLecSecPopupActive(true); extractSlots()}}>Choose Slots</button>
 				}
 

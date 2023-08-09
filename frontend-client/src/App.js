@@ -724,7 +724,8 @@ function App() {
 				) : ''}
 			</div>
 			<div>
-				{selectedCourses !== null && selectedCourses.length > 0 && generated ==="false" && GetFixedSlots().length === 0 &&
+				{selectedCourses !== null && selectedCourses.length > 0 && generated ==="false" && GetFixedSlots() !== null 
+					&& GetFixedSlots().length === 0 &&
 					<button className="generateButton" onClick={e => {setLecSecPopupActive(true); extractSlots()}}>Choose Slots</button>
 				}
 
